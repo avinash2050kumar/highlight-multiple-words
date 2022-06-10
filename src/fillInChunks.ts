@@ -1,4 +1,4 @@
-import type {ChunkArg} from './typing';
+import type { ChunkArg } from './typing';
 
 type FillInChunksProps = {
   chunksToHighlight: ChunkArg[];
