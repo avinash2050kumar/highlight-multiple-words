@@ -1,0 +1,21 @@
+# Logs
+/log/*
+!/log/.keep
+/tmp
+*.log
+
+
+node_modules
+/lib
+
+
+coverage
+
+.DS_Store
+
+npm-debug.log
+build
+dist
+
+
+.idea
