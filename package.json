@@ -5,8 +5,6 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "start": "node src/index.ts",
-    "remove": "node lib/index.js",
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "link": "npm link",
