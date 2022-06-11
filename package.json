@@ -1,6 +1,6 @@
 {
   "name": "highlight-multiple-words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -36,14 +36,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avinash2050kumar/highlight-words.git"
+    "url": "git+https://github.com/avinash2050kumar/highlight-multiple-words.git"
   },
   "author": "Avinash kumar <avinash2050kumar@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/avinash2050kumar/highlight-words/issues"
+    "url": "https://github.com/avinash2050kumar/highlight-multiple-words/issues"
   },
-  "homepage": "https://github.com/avinash2050kumar/highlight-words#readme",
+  "homepage": "https://github.com/avinash2050kumar/highlight-multiple-words#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.2",
