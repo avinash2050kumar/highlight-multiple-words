@@ -9,7 +9,7 @@ The Highlight-multiple-words provide a function as `findAll`. This function sear
          <br/>1. ["Avinash","Dummy","Avinash"] = ["Avinash","Dummy"] 
          <br/>2. [' '] = [ ] 
 
-It returns `Array<ChunkArg>`. It consists `start(number), end(number) and isHighlight(boolean)`. `isHighlight` is true when a chunk is a match else false. For Example. For example:
+It returns `Array<ChunkArg>`. It consists `start(number), end(number) and isHighlight(boolean)`. `isHighlight` is true when a chunk is a match else false. For Example:
 
 
          
@@ -61,12 +61,12 @@ The `findAll` function accepts several parameters, although only the `searchWord
 
 | Parameter | Required? | Type       | Default Value | Description                                |
 | --- |:---------:|------------|---------------|----------------------------------|
-| autoEscape |           | `boolean` |  | Escape special regular expression characters |
-| caseSensitive |           | `boolean` | false         | Search should be case sensitive            |
-| findChunks |           | `Function`|  | Custom find function (advanced)            |
+| autoEscape |           | `boolean`  |  | Escape special regular expression characters |
+| caseSensitive |           | `boolean`  | false         | Search should be case sensitive            |
+| findChunks |           | `Function` |  | Custom find function (advanced)            |
 | sanitize |           | `Function` |  | Custom sanitize function (advanced)        |
-| searchWords |   true    | `String[]` |  | Array of words(string) to search for       |
-| textToHighlight |   true    | `string`  |  | Text to search and highlight               |
+| searchWords |   true    | `string[]` |  | Array of words(string) to search for       |
+| textToHighlight |   true    | `string`   |  | Text to search and highlight               |
 
 
 ### `findAll Response`
