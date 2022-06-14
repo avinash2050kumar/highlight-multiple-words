@@ -85,3 +85,4 @@ The `findAll` return `Array<ChunkArg>`
 
 
 # react-native-highlight-multiple-words
+# react-native-highlight-multiple-words
