@@ -6,8 +6,8 @@
 The Highlight-multiple-words provide a function as `findAll`. This function searches a string of text for a set of search terms and returns an array of "ChunkArg" that describe the matches found.
 
 `Note` - If searchWords has duplicate child or empty string it will automatically discard For Example
-         1. ["Avinash","Dummy","Avinash"] = ["Avinash","Dummy"] 
-         2. [' '] = [ ] 
+         <br/>1. ["Avinash","Dummy","Avinash"] = ["Avinash","Dummy"] 
+         <br/>2. [' '] = [ ] 
 
 It returns `Array<ChunkArg>`. It consists `start(number), end(number) and isHighlight(boolean)`. `isHighlight` is true when a chunk is a match else false. For Example. For example:
 
