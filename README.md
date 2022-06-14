@@ -73,7 +73,7 @@ The `findAll` function accepts several parameters, although only the `searchWord
 
 ### `findAll Response`
 
-The `findAll` return `Array of Chunks`
+The `findAll` return `Array<ChunkArg>`
 
 | Key         | type      |
 |-------------|-----------|
