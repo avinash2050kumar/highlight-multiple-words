@@ -68,6 +68,8 @@ The `findAll` function accepts several parameters, although only the `searchWord
 | searchWords |   true    | `string[]` |  | Array of words(string) to search for       |
 | textToHighlight |   true    | `string`   |  | Text to search and highlight               |
 
+<br/>
+<br/>
 
 ### `findAll Response`
 
