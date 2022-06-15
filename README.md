@@ -81,9 +81,3 @@ The `findAll` return `Array<ChunkArg>`
 | end         | `number`  |
 | isHighlight | `boolean` |
 
-
-
-
-# react-native-highlight-multiple-words
-# react-native-highlight-multiple-words
-# react-native-highlight-multiple-words
