@@ -6,8 +6,9 @@
 The Highlight-multiple-words provide a function as `findAll`. This function searches a string of text for a set of search terms and returns an array of "ChunkArg" that describe the matches found.
 
 `Note` - If searchWords has duplicate child or empty string it will automatically discard For Example
-         <br/>1. ["Avinash","Dummy","Avinash"] = ["Avinash","Dummy"] 
-         <br/>2. [' '] = [ ] 
+         <br/>1. ["apple","Dummy","apple"] = ["apple","Dummy"] 
+         <br/>2. [" "] = [ ]  
+
 
 It returns `Array<ChunkArg>`. It consists `start(number), end(number) and isHighlight(boolean)`. `isHighlight` is true when a chunk is a match else false. For Example:
 
@@ -15,8 +16,6 @@ It returns `Array<ChunkArg>`. It consists `start(number), end(number) and isHigh
          
 
 ```typescript jsx
-import "./styles.css";
-
 import { findAll } from "highlight-multiple-words";
 import type { ChunkArg, FindChunksArg } from "highlight-multiple-words";
 
@@ -26,6 +25,9 @@ export default function App() {
   
   //const textToHighlight = "लोरेम इप्सम प्रिंटिंग और टाइपसेटिंग उद्योग का केवल डमी टेक्स्ट है।";
   //const searchWords = ["लोरेम इप्सम", "डमी"];
+   
+  //const textToHighlight = "लोरेम इप्सम प्रिंटिंग और टाइपसेटिंग उद्योग का केवल डमी टेक्स्ट है। Lorem Ipsum is simply dummy text.";
+  //const searchWords = ["लोरेम इप्सम", "डमी", "Lorem Ipsum", "dummy"];
   
   const chunks: ChunkArg[] = findAll({
     searchWords,

@@ -1,7 +1,7 @@
 {
   "name": "highlight-multiple-words",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "split the text into arrays based on a search string, allowing you to highlight the matches",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
